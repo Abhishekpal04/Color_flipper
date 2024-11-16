@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipper</title>
+    <style>
+        #btn1{
+            color: white;
+            background-color: red;
+            color: white;
+            box-sizing: border-box;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        #btn2{
+            color: black;
+            background-color: yellow;
+            box-sizing: border-box;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        #btn3{
+            color:  white;
+            background-color: blue;
+            box-sizing: border-box;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        #btn4{
+            background-color: rgba(red, green, blue, alpha);
+            box-sizing: border-box;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        button{
+            margin: 5px;
+            height: 50px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Color Flipper</h1>
+        <button id="btn1" onclick="setColor('red')">Red</button>
+        <button id="btn2" onclick="setColor('yellow')">Yellow</button>
+        <button id="btn3" onclick="setColor('blue')">Blue</button>
+        <button onclick="randomColor()">Random</button>
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
